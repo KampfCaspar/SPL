@@ -1,0 +1,17 @@
+{
+  "name": "KampfCaspar/SPL",
+  "license": "GPL-3.0+",
+  "require": {
+    "php": ">=7"
+  },
+  "autoload": {
+    "psr-4": {
+      "KampfCaspar\\SPL": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
