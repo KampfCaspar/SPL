@@ -6,7 +6,7 @@
   },
   "autoload": {
     "psr-4": {
-      "KampfCaspar\\SPL": "src"
+      "KampfCaspar\\SPL\\": "src"
     }
   },
   "extra": {
