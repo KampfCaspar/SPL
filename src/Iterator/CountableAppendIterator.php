@@ -31,6 +31,7 @@ class CountableAppendIterator extends \AppendIterator implements \Countable {
 	public function append( Iterator $iterator ) {
 		if ( $iterator instanceof \Countable ) {
 			parent::append( $iterator );
+			$this->_count += count($iterator);
 		}
 		else {
 			throw new \InvalidArgumentException( __CLASS__ . ' expects a Countable Iterator' );
